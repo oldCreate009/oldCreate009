@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning bootcamp for aws and big data analytics
 - 💞️ I’m looking to collaborate on for jobs and bussines
 - 📫 How to reach me kaufirst10k@yahoo.com
-- 😄 Pronouns: english and spanhol
+- 😄 Pronouns: english and spanish
 - ⚡ Fun fact: anyway
 
 <!---
