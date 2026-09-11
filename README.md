@@ -1,12 +1,22 @@
-- 👋 Hi, I’m @oldCreate009
-- 👀 I’m interested in big data, cloud and IA gen
-- 🌱 I’m currently learning bootcamp for aws and big data analytics
-- 💞️ I’m looking to collaborate on for jobs and bussines
-- 📫 How to reach me kauasantos22@yahoo.com
-- 😄 Pronouns: english and spanish
-  
+# 👋 Olá, eu sou Kaua!
 
-<!---
-oldCreate009/oldCreate009 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+📚 **O que estou estudando atualmente**  
+- Segurança Cibernética e da Informação  
+- Inteligência Artificial Generativa  
+- Automação de dados e análise com Python
+- SQl e Pensamento critíco  
+
+🚀 **Interesses principais** 
+- Cybersegurança e proteção de sistemas  
+- Modelos de IA generativa e suas aplicações  
+- Desenvolvimento de soluções inteligentes para problemas reais  
+
+🎯 **Meus hobbies**  
+- Sou fã de churrasco
+- E curto muito MH meu jogo predileto
+
+---
+
+✨ Sempre aberto a colaborar em projetos OpenSource e adquirir mais conhecimentos. 
+Se quiser trocar ideias, fique à vontade para me chamar nesse canal
+[Email](kauapsantos22@outlook.com)
