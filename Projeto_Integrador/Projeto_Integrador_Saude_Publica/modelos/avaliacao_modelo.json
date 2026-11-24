@@ -1,0 +1,25 @@
+{
+  "projeto": "SIMULADO; NÃO USAR EM VIGILÂNCIA REAL",
+  "tipo_modelo": "RandomForestRegressor",
+  "objetivo": "predizer notificações semanais por bairro e doença, a partir de informações passadas",
+  "separacao_temporal_corte": "2025-07-07",
+  "observacoes_treino": 1350,
+  "observacoes_teste": 450,
+  "mae_modelo": 1.4443,
+  "rmse_modelo": 2.0121,
+  "wape_modelo_pct": 40.14,
+  "mae_baseline_lag1": 2.1467,
+  "rmse_baseline_lag1": 3.1134,
+  "modelo_supera_baseline_mae": true,
+  "features_estritamente_defasadas": [
+    "casos_lag1",
+    "casos_lag2",
+    "casos_lag4",
+    "media_movel_4s",
+    "chuva_lag2",
+    "focos_lag1",
+    "visitas_lag2",
+    "temp_lag1"
+  ],
+  "limite": "Dataset fictício; métricas NÃO validam desempenho em municípios reais."
+}

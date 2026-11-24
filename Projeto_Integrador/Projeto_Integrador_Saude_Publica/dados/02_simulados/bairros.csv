@@ -1,0 +1,7 @@
+﻿bairro_id,bairro,populacao_simulada,latitude_ilustrativa,longitude_ilustrativa,origem_dados
+B01,Bairro Aurora,19000,-25.43,-49.315,SINTETICO_EDUCACIONAL
+B02,Bairro Esperança,35000,-25.438,-49.285,SINTETICO_EDUCACIONAL
+B03,Bairro Primavera,28000,-25.46,-49.307,SINTETICO_EDUCACIONAL
+B04,Bairro União,41000,-25.468,-49.274,SINTETICO_EDUCACIONAL
+B05,Bairro Horizonte,23500,-25.488,-49.32,SINTETICO_EDUCACIONAL
+B06,Bairro do Sol,32000,-25.49,-49.28,SINTETICO_EDUCACIONAL

@@ -1,0 +1,7 @@
+﻿bairro_id,bairro,populacao_simulada,latitude_ilustrativa,longitude_ilustrativa,total_notificacoes,chuva_media_mm,focos_total,visitas_total,mutiroes_total,notificacoes_por_100mil_periodo,focos_por_1000_hab,cluster_exploratorio,classificacao_ilustrativa,origem_dados
+B01,Bairro Aurora,19000,-25.43,-49.315,787,44.635576923076925,821,1989,53,4142.11,43.21,Grupo 3,Intermediário no cenário,SINTETICO_EDUCACIONAL
+B02,Bairro Esperança,35000,-25.438,-49.285,1281,49.05288461538461,809,1996,51,3660.0,23.11,Grupo 2,Menor no cenário,SINTETICO_EDUCACIONAL
+B03,Bairro Primavera,28000,-25.46,-49.307,1782,53.91923076923077,996,2109,54,6364.29,35.57,Grupo 1,Maior no cenário,SINTETICO_EDUCACIONAL
+B04,Bairro União,41000,-25.468,-49.274,1156,43.71923076923077,704,1876,47,2819.51,17.17,Grupo 2,Menor no cenário,SINTETICO_EDUCACIONAL
+B05,Bairro Horizonte,23500,-25.488,-49.32,1584,46.340384615384615,1002,1985,48,6740.43,42.64,Grupo 3,Maior no cenário,SINTETICO_EDUCACIONAL
+B06,Bairro do Sol,32000,-25.49,-49.28,1200,42.10576923076923,791,2065,56,3750.0,24.72,Grupo 2,Intermediário no cenário,SINTETICO_EDUCACIONAL

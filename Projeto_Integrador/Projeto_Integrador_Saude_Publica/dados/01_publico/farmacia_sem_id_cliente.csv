@@ -1,0 +1,51 @@
+﻿ID_Venda,Data_Venda,Hora_Venda,ID_Filial,Nome_Filial,ID_Produto,Nome_Produto,Categoria_Produto,Quantidade_Vendida,Preco_Unitario_R$,Valor_Total_Item_R$,Tipo_Pagamento,Produto_Promocao
+1,2024-01-15,10:30:15,1,Saúde Integrada Centro,101,Analgésico Comum 20cp,Medicamentos,2,12.5,25.0,Cartão Débito,Não
+2,2024-01-15,10:35:22,2,Saúde Integrada Bairro Sol,205,Vitamina C Efervescente 10cp,Vitaminas e Suplementos,1,22.0,22.0,PIX,Sim
+3,2024-01-15,11:10:05,3,Saúde Integrada Bairro Lua,310,Shampoo Anticaspa 200ml,Higiene Pessoal,1,18.75,18.75,Dinheiro,Não
+4,2024-01-16,14:05:30,1,Saúde Integrada Centro,415,Protetor Solar FPS 50 120ml,Dermocosméticos,1,55.9,55.9,Cartão Crédito,Não
+5,2024-01-16,16:20:00,2,Saúde Integrada Bairro Sol,102,Antitérmico Infantil Gotas 15ml,Medicamentos,1,15.0,15.0,Cartão Débito,Não
+6,2024-01-17,09:15:45,3,Saúde Integrada Bairro Lua,501,Fralda Geriátrica M 8un,Infantil/Geriátrico,3,25.0,75.0,Dinheiro,Sim
+7,2024-01-17,17:45:10,1,Saúde Integrada Centro,208,Suplemento Ferro 30cp,Vitaminas e Suplementos,1,30.5,30.5,PIX,Não
+8,2024-01-18,08:50:00,2,Saúde Integrada Bairro Sol,312,Sabonete Líquido Íntimo 250ml,Higiene Pessoal,2,14.0,28.0,Cartão Crédito,Sim
+9,2024-01-18,19:00:55,3,Saúde Integrada Bairro Lua,101,Analgésico Comum 20cp,Medicamentos,1,12.5,12.5,Cartão Débito,Não
+10,2024-01-19,11:30:33,1,Saúde Integrada Centro,420,Creme Hidratante Facial 50g,Dermocosméticos,1,65.0,65.0,Dinheiro,Não
+11,2024-01-19,15:00:00,2,Saúde Integrada Bairro Sol,205,Vitamina C Efervescente 10cp,Vitaminas e Suplementos,2,22.0,44.0,PIX,Sim
+12,2024-01-20,09:00:10,3,Saúde Integrada Bairro Lua,310,Shampoo Anticaspa 200ml,Higiene Pessoal,1,18.75,18.75,Cartão Crédito,Não
+13,2024-01-20,18:25:00,1,Saúde Integrada Centro,102,Antitérmico Infantil Gotas 15ml,Medicamentos,1,15.0,15.0,Cartão Débito,Não
+14,2024-01-21,10:10:10,2,Saúde Integrada Bairro Sol,501,Fralda Geriátrica M 8un,Infantil/Geriátrico,2,25.0,50.0,Dinheiro,Sim
+15,2024-01-21,14:55:30,3,Saúde Integrada Bairro Lua,415,Protetor Solar FPS 50 120ml,Dermocosméticos,1,55.9,55.9,PIX,Não
+16,2024-01-22,11:00:00,1,Saúde Integrada Centro,312,Sabonete Líquido Íntimo 250ml,Higiene Pessoal,1,14.0,14.0,Cartão Crédito,Sim
+17,2024-01-22,16:30:00,2,Saúde Integrada Bairro Sol,101,Analgésico Comum 20cp,Medicamentos,3,12.5,37.5,Cartão Débito,Não
+18,2024-01-23,09:40:00,3,Saúde Integrada Bairro Lua,208,Suplemento Ferro 30cp,Vitaminas e Suplementos,1,30.5,30.5,Dinheiro,Não
+19,2024-01-23,17:15:15,1,Saúde Integrada Centro,501,Fralda Geriátrica M 8un,Infantil/Geriátrico,1,25.0,25.0,PIX,Sim
+20,2024-01-24,10:00:00,2,Saúde Integrada Bairro Sol,420,Creme Hidratante Facial 50g,Dermocosméticos,1,65.0,65.0,Cartão Crédito,Não
+21,2024-01-24,13:30:45,3,Saúde Integrada Bairro Lua,102,Antitérmico Infantil Gotas 15ml,Medicamentos,2,15.0,30.0,Cartão Débito,Não
+22,2024-01-25,15:20:00,1,Saúde Integrada Centro,205,Vitamina C Efervescente 10cp,Vitaminas e Suplementos,1,22.0,22.0,Dinheiro,Sim
+23,2024-01-25,19:00:00,2,Saúde Integrada Bairro Sol,310,Shampoo Anticaspa 200ml,Higiene Pessoal,1,18.75,18.75,PIX,Não
+24,2024-01-26,08:30:00,3,Saúde Integrada Bairro Lua,415,Protetor Solar FPS 50 120ml,Dermocosméticos,2,55.9,111.8,Cartão Crédito,Não
+25,2024-01-26,12:00:00,1,Saúde Integrada Centro,101,Analgésico Comum 20cp,Medicamentos,1,12.5,12.5,Cartão Débito,Não
+26,2024-01-27,10:45:00,2,Saúde Integrada Bairro Sol,208,Suplemento Ferro 30cp,Vitaminas e Suplementos,2,30.5,61.0,Dinheiro,Não
+27,2024-01-27,17:00:00,3,Saúde Integrada Bairro Lua,312,Sabonete Líquido Íntimo 250ml,Higiene Pessoal,1,14.0,14.0,PIX,Sim
+28,2024-01-28,09:10:00,1,Saúde Integrada Centro,501,Fralda Geriátrica M 8un,Infantil/Geriátrico,2,25.0,50.0,Cartão Crédito,Sim
+29,2024-01-28,14:00:00,2,Saúde Integrada Bairro Sol,420,Creme Hidratante Facial 50g,Dermocosméticos,1,65.0,65.0,Cartão Débito,Não
+30,2024-01-29,11:20:00,3,Saúde Integrada Bairro Lua,101,Analgésico Comum 20cp,Medicamentos,1,12.5,12.5,Dinheiro,Não
+31,2024-01-29,16:50:00,1,Saúde Integrada Centro,205,Vitamina C Efervescente 10cp,Vitaminas e Suplementos,3,22.0,66.0,PIX,Sim
+32,2024-01-30,10:00:00,2,Saúde Integrada Bairro Sol,310,Shampoo Anticaspa 200ml,Higiene Pessoal,2,18.75,37.5,Cartão Crédito,Não
+33,2024-01-30,18:00:00,3,Saúde Integrada Bairro Lua,102,Antitérmico Infantil Gotas 15ml,Medicamentos,1,15.0,15.0,Cartão Débito,Não
+34,2024-01-31,09:30:00,1,Saúde Integrada Centro,415,Protetor Solar FPS 50 120ml,Dermocosméticos,1,55.9,55.9,Dinheiro,Não
+35,2024-01-31,13:15:00,2,Saúde Integrada Bairro Sol,501,Fralda Geriátrica M 8un,Infantil/Geriátrico,1,25.0,25.0,PIX,Sim
+36,2024-02-01,11:00:00,3,Saúde Integrada Bairro Lua,208,Suplemento Ferro 30cp,Vitaminas e Suplementos,1,30.5,30.5,Cartão Crédito,Não
+37,2024-02-01,15:45:00,1,Saúde Integrada Centro,312,Sabonete Líquido Íntimo 250ml,Higiene Pessoal,2,14.0,28.0,Cartão Débito,Sim
+38,2024-02-02,09:00:00,2,Saúde Integrada Bairro Sol,101,Analgésico Comum 20cp,Medicamentos,1,12.5,12.5,Dinheiro,Não
+39,2024-02-02,17:30:00,3,Saúde Integrada Bairro Lua,420,Creme Hidratante Facial 50g,Dermocosméticos,1,65.0,65.0,PIX,Não
+40,2024-02-03,10:15:00,1,Saúde Integrada Centro,102,Antitérmico Infantil Gotas 15ml,Medicamentos,1,15.0,15.0,Cartão Crédito,Não
+41,2024-02-03,14:45:00,2,Saúde Integrada Bairro Sol,205,Vitamina C Efervescente 10cp,Vitaminas e Suplementos,1,22.0,22.0,Cartão Débito,Sim
+42,2024-02-04,11:30:00,3,Saúde Integrada Bairro Lua,310,Shampoo Anticaspa 200ml,Higiene Pessoal,1,18.75,18.75,Dinheiro,Não
+43,2024-02-04,16:00:00,1,Saúde Integrada Centro,501,Fralda Geriátrica M 8un,Infantil/Geriátrico,3,25.0,75.0,PIX,Sim
+44,2024-02-05,09:50:00,2,Saúde Integrada Bairro Sol,415,Protetor Solar FPS 50 120ml,Dermocosméticos,1,55.9,55.9,Cartão Crédito,Não
+45,2024-02-05,18:10:00,3,Saúde Integrada Bairro Lua,101,Analgésico Comum 20cp,Medicamentos,2,12.5,25.0,Cartão Débito,Não
+46,2024-02-06,10:20:00,1,Saúde Integrada Centro,208,Suplemento Ferro 30cp,Vitaminas e Suplementos,1,30.5,30.5,Dinheiro,Não
+47,2024-02-06,15:00:00,2,Saúde Integrada Bairro Sol,312,Sabonete Líquido Íntimo 250ml,Higiene Pessoal,1,14.0,14.0,PIX,Sim
+48,2024-02-07,11:45:00,3,Saúde Integrada Bairro Lua,501,Fralda Geriátrica M 8un,Infantil/Geriátrico,1,25.0,25.0,Cartão Crédito,Sim
+49,2024-02-07,17:20:00,1,Saúde Integrada Centro,420,Creme Hidratante Facial 50g,Dermocosméticos,1,65.0,65.0,Cartão Débito,Não
+50,2024-02-08,09:00:00,2,Saúde Integrada Bairro Sol,102,Antitérmico Infantil Gotas 15ml,Medicamentos,2,15.0,30.0,Dinheiro,Não

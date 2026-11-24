@@ -1,0 +1,59 @@
+{
+  "tipo": "DADOS SINTÉTICOS PARA SAÚDE + CSV REAL DE FARMÁCIA SEPARADO",
+  "farmacia": {
+    "linhas": 50,
+    "faturamento_brl": 1812.4,
+    "filiais": 3,
+    "sem_id_cliente": true
+  },
+  "cenario_sintetico": {
+    "semanas": 104,
+    "bairros": 6,
+    "doencas": 3,
+    "notificacoes_linhas": 1872,
+    "nota": "Tudo sintético; cidades/coordenadas/indivíduos não são reais."
+  },
+  "casos_sinteticos_total": 7790,
+  "casos_sinteticos_por_doenca": {
+    "Chikungunya": 1379,
+    "Dengue": 5765,
+    "Zika": 646
+  },
+  "focos_sinteticos_total": 5123,
+  "visitas_sinteticas_total": 12020,
+  "bairro_maior_notificacoes_100mil": "Bairro Horizonte",
+  "bairro_maior_notificacoes_100mil_taxa": 6740.43,
+  "modelo": {
+    "projeto": "SIMULADO; NÃO USAR EM VIGILÂNCIA REAL",
+    "tipo_modelo": "RandomForestRegressor",
+    "objetivo": "predizer notificações semanais por bairro e doença, a partir de informações passadas",
+    "separacao_temporal_corte": "2025-07-07",
+    "observacoes_treino": 1350,
+    "observacoes_teste": 450,
+    "mae_modelo": 1.4443,
+    "rmse_modelo": 2.0121,
+    "wape_modelo_pct": 40.14,
+    "mae_baseline_lag1": 2.1467,
+    "rmse_baseline_lag1": 3.1134,
+    "modelo_supera_baseline_mae": true,
+    "features_estritamente_defasadas": [
+      "casos_lag1",
+      "casos_lag2",
+      "casos_lag4",
+      "media_movel_4s",
+      "chuva_lag2",
+      "focos_lag1",
+      "visitas_lag2",
+      "temp_lag1"
+    ],
+    "limite": "Dataset fictício; métricas NÃO validam desempenho em municípios reais."
+  },
+  "banco_sqlite_gerado": "dados/projeto_saude.db",
+  "dashboard_html": {
+    "registros_casos_agrupados": 432,
+    "registros_controle_agrupados": 144,
+    "registros_previsoes": 450,
+    "arquivo": "docs/assets/dados-painel.js"
+  },
+  "dashboard_status": "HTML interativo pronto; Google Looker Studio pendente"
+}

@@ -1,0 +1,6 @@
+﻿categoria,transacoes,unidades,faturamento_brl,interpretacao,origem_dados
+Dermocosméticos,10,11,660.4,Vendas farmaceuticas; NAO e dado de doenca vetorial,CSV_REAL_FARMACIA
+Higiene Pessoal,10,13,210.5,Vendas farmaceuticas; NAO e dado de doenca vetorial,CSV_REAL_FARMACIA
+Infantil/Geriátrico,7,13,325.0,Vendas farmaceuticas; NAO e dado de doenca vetorial,CSV_REAL_FARMACIA
+Medicamentos,13,19,257.5,Vendas farmaceuticas; NAO e dado de doenca vetorial,CSV_REAL_FARMACIA
+Vitaminas e Suplementos,10,14,359.0,Vendas farmaceuticas; NAO e dado de doenca vetorial,CSV_REAL_FARMACIA

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projeto Integrador - Saúde Pública</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/dados-painel.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="subtitulo">PROJETO INTEGRADOR · SITUAÇÃO-PROBLEMA 2</p>
+      <h1>Análise de Dados em Saúde Pública</h1>
+      <p>Notificações de dengue, zika e chikungunya, distribuição por bairro e ações de controle.</p>
+    </header>
+
+    <div class="aviso"><strong>Atenção: dados simulados.</strong> Os casos, os bairros e as ações são fictícios, para demonstrar a análise. Não representam situação epidemiológica real.</div>
+
+    <nav class="abas" aria-label="Páginas do painel">
+      <button type="button" class="aba ativa" data-aba="geral">1. Visão geral</button>
+      <button type="button" class="aba" data-aba="bairros">2. Bairros</button>
+      <button type="button" class="aba" data-aba="modelo">3. Previsão</button>
+    </nav>
+
+    <section class="filtros" aria-label="Filtros">
+      <div><label for="ano">Ano</label><select id="ano"><option value="todos">2024 e 2025</option><option value="2024">2024</option><option value="2025">2025</option></select></div>
+      <div><label for="doenca">Doença</label><select id="doenca"><option value="todos">Todas as doenças</option><option>Dengue</option><option>Zika</option><option>Chikungunya</option></select></div>
+      <div><label for="bairro">Bairro</label><select id="bairro"><option value="todos">Todos os bairros</option></select></div>
+      <button id="limpar" type="button" class="limpar">Limpar filtros</button>
+    </section>
+
+    <section id="geral" class="pagina ativa" aria-label="Visão geral">
+      <h2>Visão geral das notificações</h2>
+      <div class="indicadores">
+        <div class="indicador"><span>Notificações</span><strong id="total-casos">–</strong></div>
+        <div class="indicador"><span>Focos encontrados</span><strong id="total-focos">–</strong></div>
+        <div class="indicador"><span>Visitas de agentes</span><strong id="total-visitas">–</strong></div>
+        <div class="indicador"><span>Notificações por 100 mil*</span><strong id="total-taxa">–</strong></div>
+      </div>
+      <article class="bloco">
+        <h3>Evolução mensal</h3>
+        <p>Comparação das notificações ao longo do período.</p>
+        <div class="grafico"><svg id="grafico-meses" role="img" aria-label="Linhas de notificações por mês"></svg></div>
+        <div id="legenda-meses" class="legenda"></div>
+      </article>
+      <article class="bloco">
+        <h3>Notificações por doença</h3>
+        <div id="barras-doencas" class="barras"></div>
+      </article>
+      <p class="nota">* Taxa acumulada no período filtrado, não anualizada. Focos e visitas não são específicos de uma doença e não são multiplicados pelo número de doenças.</p>
+    </section>
+
+    <section id="bairros" class="pagina" aria-label="Análise por bairros">
+      <h2>Análise por bairros e controle vetorial</h2>
+      <p>Comparação territorial com base na população fictícia de cada bairro.</p>
+      <div class="duas-colunas">
+        <article class="bloco">
+          <h3>Notificações por 100 mil habitantes*</h3>
+          <div id="barras-bairros" class="barras"></div>
+        </article>
+        <article class="bloco">
+          <h3>Mapa ilustrativo</h3>
+          <p>Os pontos não correspondem a bairros reais. Clique em um ponto para filtrar.</p>
+          <div class="grafico"><svg id="mapa" role="img" aria-label="Posição fictícia dos seis bairros"></svg></div>
+        </article>
+      </div>
+      <article class="bloco">
+        <h3>Focos e ações por bairro</h3>
+        <div class="tabela-container"><table><thead><tr><th>Bairro</th><th>Notificações</th><th>Focos</th><th>Visitas</th><th>Focos eliminados</th></tr></thead><tbody id="tabela-bairros"></tbody></table></div>
+      </article>
+      <p class="nota">* Taxas calculadas para o recorte selecionado. A diferença entre bairros não demonstra causalidade.</p>
+    </section>
+
+    <section id="modelo" class="pagina" aria-label="Avaliação de previsão">
+      <h2>Previsão de notificações</h2>
+      <p>Comparação entre notificações simuladas e previsões do Random Forest em dados separados para teste (julho a dezembro de 2025).</p>
+      <div class="indicadores dois">
+        <div class="indicador"><span>Erro médio do modelo (MAE)</span><strong id="mae-modelo">–</strong></div>
+        <div class="indicador"><span>Erro médio da referência (MAE)</span><strong id="mae-base">–</strong></div>
+      </div>
+      <article class="bloco">
+        <h3>Observado x previsto por semana</h3>
+        <div id="aviso-previsao" class="nota"></div>
+        <div class="grafico"><svg id="grafico-previsao" role="img" aria-label="Comparação semanal entre real e previsão"></svg></div>
+        <div class="legenda"><span><i class="bolinha real"></i>Observado</span><span><i class="bolinha previsto"></i>Previsto</span></div>
+      </article>
+      <p class="nota">O modelo foi treinado e testado apenas em dados sintéticos. Os erros mostrados consideram as observações do recorte, não validam previsão de casos reais.</p>
+    </section>
+
+    <footer>
+      <strong>Como este painel foi feito:</strong> dados tratados com Python/Pandas, consultas SQL, análise exploratória e teste de previsão. A origem e os códigos estão nas pastas <code>dados/</code> e <code>codigo/</code> do repositório.
+      <p>O CSV original de farmácia foi auditado separadamente. Ele não foi convertido em registros de doenças.</p>
+    </footer>
+  </div>
+</body>
+</html>
